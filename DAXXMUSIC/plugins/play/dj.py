@@ -5,7 +5,7 @@ import os
 from DAXXMUSIC import app
 
 
-@app.on_message(filters.command("dj"))
+@app.on_message(filters.command("dj", prefixes=["/", "!", "%", "", ".", "@", "#"]))
 async def bass_boost_command(client, message):
     try:
         # Check if there is a reply to the command

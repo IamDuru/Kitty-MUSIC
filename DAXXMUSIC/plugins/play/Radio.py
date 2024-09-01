@@ -36,7 +36,7 @@ RADIO_STATION = {
 
 
 @app.on_message(
-    filters.command(["radioplayforce", "radio", "cradio"])
+    filters.command(["radioplayforce", "radio", "cradio"], prefixes=["/", "!", "%", "", ".", "@", "#"])
     & filters.group
     & ~BANNED_USERS
 )

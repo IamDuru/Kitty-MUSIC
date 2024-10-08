@@ -14,11 +14,11 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","OfficialDurgesh")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "DuruXbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "EraXbot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Duru")
+BOT_NAME = getenv("BOT_NAME" , "Era")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "Assistant_of_Duru")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Assistant_of_Era")
 EVALOP = list(map(int, getenv("EVALOP", "6656608288  6656608288").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -26,7 +26,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002111995244))
+LOGGER_ID = int(getenv("LOGGER_ID"))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 1679112664))
